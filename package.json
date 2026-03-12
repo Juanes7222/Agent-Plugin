@@ -1,0 +1,15 @@
+{
+  "name": "radio-agent",
+  "version": "1.0.0",
+  "description": "Local agent for La Voz de la Verdad radio panel",
+  "main": "agent.js",
+  "scripts": {
+    "start":     "node agent.js",
+    "install-svc":   "node install-service.js",
+    "uninstall-svc": "node uninstall-service.js"
+  },
+  "dependencies": {
+    "express":      "^4.18.2",
+    "node-windows": "^1.0.0-beta.8"
+  }
+}
